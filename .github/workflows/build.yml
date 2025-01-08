@@ -6,25 +6,28 @@ on:
   workflow_dispatch: # Ajout pour permettre un lancement manuel
 
 jobs:
-  build:
+  build-launcher:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repository
+      - name: Check out Git repository
         uses: actions/checkout@v2
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
+      - name: Set up Node
+        uses: actions/setup-node@v3
         with:
-          node-version: '16'
+          node-version: 18.x
 
-      - name: Install dependencies
+      - name: Install Dependencies
         run: npm ci
+        shell: bash
 
-      - name: Build project
+      - name: Build
         run: npm run build
+        shell: bash
 
       - name: Upload build artifacts
-        uses: actions/upload-artifact@v3  # Changement vers la version v3
+        uses: actions/upload-artifact@v3
         with:
-          name: build-artifacts
-          path: ./dist
+          name: siphonium-build
+          path: ./siphonium-build/*
