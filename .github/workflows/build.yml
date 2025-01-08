@@ -1,8 +1,9 @@
-# module du helios launcher
 name: Launcher Build
+
 on:
   push:
-    branches: [ master ]
+    branches: [ master ] # Workflow déclenché par des pushs sur master
+  workflow_dispatch: # Ajout pour permettre un lancement manuel
 
 jobs:
   create-release:
