@@ -22,12 +22,20 @@ jobs:
         run: npm ci
         shell: bash
 
+      - name: Create build directory if not exists
+        run: mkdir -p ./siphonium-build
+
       - name: Build
         run: npm run build
         shell: bash
+
+      - name: List files in build directory
+        run: ls -R ./siphonium-build
 
       - name: Upload build artifacts
         uses: actions/upload-artifact@v3
         with:
           name: siphonium-build
           path: ./siphonium-build/*
+          if-no-files-found: warn
+          include-hidden-files: false
