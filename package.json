@@ -7,14 +7,14 @@
     "author": {
         "name": "luuxis, Satanas1275 Inc.",
         "email": "contact@luuxis.fr",
-        "url": "https://github.com/luuxis"
+        "url": "https://github.com/ROCKNITE-STUDIO"
     },
-    "url": "http://localhost:8000",
+    "url": "https://rocknite-studio.github.io/siphonium-launcher",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=true --build=platform",
-        "icon": "node build.js --icon=https://raw.githubusercontent.com/ROCKNITE-STUDIO/siphonium-asset/refs/heads/main/src/assets/images/icon.png"
+        "icon": "node build.js --icon=https://raw.githubusercontent.com/ROCKNITE-STUDIO/siphonium-launcher/refs/heads/main/src/assets/images/icon.png"
     },
     "license": "CCANC",
     "nodemonConfig": {
