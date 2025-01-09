@@ -1,5 +1,4 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Nous rejoindre sur Discord, pour toutes questions ou demandes
-    url: http://discord.luuxis.fr
+  - name: Nous rejoindre sur siphonium pour jouer avec nous oupour nous faire des demandes
     about: Veuillez ne pas ouvrir d'issue autre que pour signaler des bugs
