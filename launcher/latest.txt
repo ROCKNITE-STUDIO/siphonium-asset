@@ -1,1 +1,1 @@
-
+https://github.com/ROCKNITE-STUDIO/siphonium-launcher/releases/download/1.0.0/siphonium-launcher-win-x64-unpacked.zip
