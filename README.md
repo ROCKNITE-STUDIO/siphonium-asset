@@ -1,8 +1,10 @@
 # Siphonium Dev Progres
 
-- [ ] finir le spawn faction
-- [ ] faire le spawn minage
+- [x] finir le spawn faction
+- [x] faire le spawn minage
 - [ ] publié la V1
+- [ ] finir le site
+- [ ] améliorer le launcher
 
 des modifications vont être apportées avec l'avancement du développement.
 
