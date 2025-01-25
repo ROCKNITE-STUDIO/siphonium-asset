@@ -2,7 +2,7 @@
 
 - [x] finir le spawn faction
 - [x] faire le spawn minage
-- [ ] publié la V1
+- [ ] publier la V1
 - [ ] finir le site
 - [ ] améliorer le launcher
 
