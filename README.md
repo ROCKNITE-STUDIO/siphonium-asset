@@ -4,7 +4,7 @@
 - [x] faire le spawn minage
 - [ ] publier la V1
 - [ ] finir le site
-- [ ] améliorer le launcher
+- [x] améliorer le launcher
 
 des modifications vont être apportées avec l'avancement du développement.
 
